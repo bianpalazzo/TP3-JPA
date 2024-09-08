@@ -1,0 +1,29 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'com.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // JPA
+    implementation 'org.hibernate:hibernate-core:5.6.0.Final'
+
+    // Driver de la base de datos
+    implementation 'com.h2database:h2:1.4.200'
+
+    // Otras dependencias necesarias
+}
+
+sourceCompatibility = '17'
+targetCompatibility = '17'
+
+// Configuración para ejecutar la aplicación
+application {
+    mainClass = 'org.example.Main'
+}
