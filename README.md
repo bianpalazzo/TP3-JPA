@@ -1,8 +1,8 @@
-TP3- Desarrollo de Software Este repositorio contiene el proyecto de JPA
+TP3- Desarrollo de Software- Este repositorio contiene el proyecto de JPA
 
 Descripción:
 
-En el mimo se implementa el uso de Hibernate. (Proyecto de base ). Como también se utiliza gradle y la base de dato H2 en memoria para simplificar
+En el mismo se implementa el uso de Hibernate. (Proyecto de base ). Como también se utiliza gradle y la base de dato H2 en memoria para simplificar
 
 Ejecución:
 
